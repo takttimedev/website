@@ -96,6 +96,7 @@
                                     </li>
                                 </ul>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -103,19 +104,28 @@
             <!-- ttm-header-wrap -->
             
             
-            <div class="ttm-header-wrap">
+          <div class="ttm-header-wrap">
                 <!-- ttm-stickable-header-w -->
                 <div id="ttm-stickable-header-w" class="ttm-stickable-header-w clearfix">
                     <div id="site-header-menu" class="site-header-menu">
-                        <div class="">
-                            <div class="">
+                        <div class="site-header-menu-inner ttm-stickable-header">
+                            <div class="container">
                                 <!-- site-branding -->
-                              
+                                <div class="site-branding">
+                                    <a class="sina-brand" href="index.html">
+				 <img src="images1/logo.png" title="TaktTimeCloud Services"><strong class="ttm-textcolor-skincolor" style="color:#33C1FF;">TaktTimeCloud</strong> 
+
+					
+				</a>
+                                </div><!-- site-branding end -->
                                 <!--site-navigation -->
                                 <div id="site-navigation" class="site-navigation">
                                     <div class="ttm-rt-contact">
                                         <!-- header-icons -->
-                                         <!-- header-icons end -->
+                                        <div class="ttm-header-icons ">
+                                             
+                                             
+                                        </div><!-- header-icons end -->
                                     </div>
                                     <div class="ttm-menu-toggle">
                                         <input type="checkbox" id="menu-toggle-form" />
@@ -125,95 +135,27 @@
                                             <span class="toggle-block toggle-blocks-3"></span>
                                         </label>
                                     </div>
-                                     <div class="nav-container">
-	<nav class="sina-nav mobile-sidebar navbar-fixed" data-top="60">
-		<div class="container">
-
-			 <!-- .search-box -->
-
-			 
-
-			<div class="sina-nav-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-					<i class="fa fa-bars"></i>
-				</button>
-				<a class="sina-brand" href="index.html">
-				 <img src="images1/logo.jpg" title="TaktTimeCloud Services"><strong class="ttm-textcolor-skincolor" style="color:#33C1FF;">TaktTimeCloud</strong> 
-
-					
-				</a>
-			</div><!-- .sina-nav-header -->
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="navbar-menu">
-				<ul class="sina-menu sina-menu-center" data-in="fadeInLeft" data-out="fadeInOut">
-					<li><a href="index.html">HOME</a></li>
-					<li><a href="aboutus.html">ABOUT US</a></li>
-					 
-					 <li class="dropdown menu-item-has-mega-menu">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">SERVICES</a>
-						<div class="mega-menu dropdown-menu">
-							<ul class="mega-menu-row" role="menu">
-								<li class="mega-menu-col col-md-2 ">
-                                 <h4 class="mega-menu-col-title box" align="center"><a href="cloud-consulting.html">
-                                 <i class="fa fa-cloud" aria-hidden="true" style="font-size:50px; color:#2d4a8a;"></i>
-                                 <br>Cloud Consulting </a> </h4>
-									 
-								</li>
-                                
-								<li class="mega-menu-col col-md-2" >
-									<h4 class="mega-menu-col-title box" align="center"><a href="cloud-migration.html">
-                                    
-                                    <i class="fa fa-cloud-download" aria-hidden="true" style="font-size:50px; color:#2d4a8a;"></i>
-                                 <br>Cloud Migration </a>
-                                    
-                                     </h4>
-									 
-								</li>
-								<li class="mega-menu-col col-md-2 ">
-								<h4 class="mega-menu-col-title box" align="center"><a href="devops-consulting.html">
-                                    
-                                    <i class="fa fa-cog" aria-hidden="true" style="font-size:50px; color:#2d4a8a;"></i>
-                                 <br>Devops Consulting </a>
-                                    
-                                     </h4>
-									 
-								</li>
-                                
-                                <li class="mega-menu-col col-md-2">
-					<h4 class="mega-menu-col-title boxs" align="center"><a href="kubernetes-orchestration-and-containerization.html">
-                                    
-                                    <i class="fa fa-external-link-square" aria-hidden="true" style="font-size:50px; color:#2d4a8a;"></i>
-                                 <br>Kubernetes Orchestration & Containerization  </a>
-                                    
-                                     </h4>
-								</li>
-                                <li class="mega-menu-col col-md-2 box">
-									  <h4 class="mega-menu-col-title" align="center"><a href="infrastructure-code.html">
-                                    
-                                    <i class="fa fa-check-circle" aria-hidden="true" style="font-size:50px;color:#2d4a8a; "></i>
-                                 <br>Infrastructure as a Code  </a>
-                                    
-                                     </h4>
-								</li>
-                                 <li class="mega-menu-col col-md-2 ">
-									 <h4 class="mega-menu-col-title box" align="center"><a href="aws-cloud.html">
-                                    
-                                    <i class="fa fa-cloud-upload" aria-hidden="true" style="font-size:50px; color:#2d4a8a;"></i>
-                                 <br>AWS Cloud  </a>
-                                    
-                                     </h4>
-								</li>
-							</ul><!-- end row -->
-						</div>
-					</li>
-					<li><a href="team.html">TEAM</a></li>
+                                    <nav id="menu" class="menu">
+                                        <ul class="dropdown">
+                                        <li class="active"><a href="index.html">HOME</a></li>
+				                       	<li><a href="aboutus.html">ABOUT US</a></li>
+                                           
+                                             <li><a href="#">SERVICES</a>
+                                                <ul>
+                                                    <li><a href="cloud-consulting.html">Cloud Consulting</a></li>
+                                                    <li><a href="cloud-migration.html">Cloud Migration</a></li>
+                                                    <li><a href="devops-consulting.html">Devops Consulting</a></li>
+    <li><a href="kubernetes-orchestration-and-containerization.html">Kubernetes Orchestration & Containerization</a></li>
+                                                    <li><a href="infrastructure-code.html">Infrastructure as a Code</a></li>
+                                                    <li><a href="aws-cloud.html">AWS Cloud</a></li>
+                                                </ul>
+                                            </li>
+                                         
+                                         <li><a href="team.html">TEAM</a></li>
 					<li><a href="contact.html">CONTACT US</a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- .container -->
-	</nav>
-</div>
+                                            
+                                        </ul>
+                                    </nav>
                                 </div><!-- site-navigation end-->
                             </div>
                         </div>
@@ -224,7 +166,7 @@
         </header><!--header end-->
 
         <!-- page-title -->
-        <div class="ttm-page-title-row">
+        <div class="ttm-page-title-row6">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12"> 
@@ -247,78 +189,73 @@
 
         <!--site-main start-->
         <div class="site-main">
+        <!-- sidebar -->
+        <div class="sidebar ttm-sidebar ttm-bgcolor-white clearfix">
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+                    <div class="col-lg-9 content-area order-lg-2">
+                        <!-- ttm-service-single-content-are -->
+                        <!-- ttm-service-single-content-are -->
+                        <div class="ttm-service-single-content-area">
+                            <div class="ttm_single_image-wrapper mb-35">
+                                <img class="img-fluid" src="images/single-img-twelve12.jpg" alt="single-img-twelve">
+                            </div>
+                            <div class="ttm-service-description">
+                            
+                                 <h3>  AWS Consulting Services</h3>
+                                
+                                
+<p>AWS is one of the essential Cloud Computing Technology that enables you to analyze and monitor data more accurately in real-time. The tool comes with the cheapest storage options and offers your organization some powerful options that assist you to compute data, ensure on-time delivery, and database storage efficiently.</p>
 
-            <!-- aboutus-section -->
-             <section class="ttm-row aboutus-section clearfix">
-                <div class="container">
-                    <div class="row"><!-- row -->
-                        <div class="col-lg-6">
-                            <!-- section title -->
-                            <div class="section-title with-desc clearfix">
-                                <div class="title-header">
-                                    <h5></h5>
-                                    <h2 class="title">AWS Consulting <span>Services</span></h2>
-                                </div>
-                                <div class="title-desc">
-                                  <p> AWS is one of the essential Cloud Computing Technology that enables you to analyze and monitor data more accurately in real-time. The tool comes with the cheapest storage options and offers your organization some powerful options that assist you to compute data, ensure on-time delivery, and database storage efficiently.</p>
-<p>Through AWS services, you can easily handle your online retail operations. Amazon Web Services is an on-demand infrastructure that allows greater scalability of your business, and for the best advice and top-class AWS experience, you can get in touch with us. </p>
+<p>Through AWS services, you can easily handle your online retail operations. Amazon Web Services is an on-demand infrastructure that allows greater scalability of your business, and for the best advice and top-class AWS experience, you can get in touch with us.</p>
 <p>More than 100 services comprise the Amazon Web Services portfolio, including those for compute, databases, infrastructure management, application development and security. These services, by category, include:</p>
- <div class="row no-gutters mt-35">
+ 
+                                 
+                                <div class="row no-gutters mt-35">
 <div class="col-md-6 col-lg-6 col-sm-6">
 <ul class="ttm-list ttm-list-style-icon">
 <li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content"> Compute</span></li>
 <li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content"> Storage databases</span></li>
-<li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content"> Data management</span></li>
+<li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Data management</span></li>
 <li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content"> Migration</span></li>
 <li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content"> Hybrid cloud</span></li>
 <li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content"> Networking</span></li>
 <li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content"> Development tools</span></li>
-<li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content"> Management</span></li>
+<li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Management</span></li>
 <li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content"> Monitoring</span></li>
 <li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content"> Security</span></li>
-<li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content"> Governance</span></li>
-<li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content"> Messages and notification</span></li>
+<li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Governance</span></li>
+<li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">Messages and notification</span></li>
+<li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content">AWS Services Consulting</span></li>
+ 
 </ul>
 </div>
 </div>
-
-                                </div>
-                            </div><!-- section title end -->
-                              <div class="row no-gutters mt-35">
-                                <div class="col-md-6 col-lg-6 col-sm-6">
-                                    <ul class="ttm-list ttm-list-style-icon">
-                                         
-                                 <li><i class="fa fa-circle-o ttm-textcolor-skincolor"></i><span class="ttm-list-li-content"><a href=" aws-services-consulting.html"> AWS Services Consulting</a></span></li>
-                                     </ul>
-                                </div>
-                             </div>
-                            <!-- row -->
-                            <!-- row END-->
-                            </div>
-                        <div class="col-lg-6">
-                            <div class="position-relative res-991-mt-30">
-                                <!-- ttm_single_image-wrapper -->
-                                <div class="ttm_single_image-wrapper">
-                                    <img class="img-fluid lazyload" data-src="images1/aws5.png" title="single-img-one" alt="single-img-one"><br>
                                 
-								</div><!-- ttm_single_image-wrapper end -->
-                                <!--featured-icon-box-->
-                                
-                                <!-- featured-icon-box end-->
+                                 <!-- acadion -->
+                                 <!-- acadion end-->
                             </div>
                         </div>
+                        <!-- ttm-service-single-content-are end -->
                     </div>
-                    <!-- row end -->
-                    <!-- row -->
-                    <div class="row">
-                        
-                    </div><!-- row end-->
-                </div>
-            </section>
-            <!-- aboutus-section end -->
-             
-
-        </div><!--site-main end-->
+                    <div class="col-lg-3 widget-area">
+                        <aside class="widget widget-nav-menu">
+                            <ul class="widget-menu">
+                                <li><a href="cloud-consulting.html">Cloud Consulting</a></li>
+                                                    <li><a href="cloud-migration.html">Cloud Migration</a></li>
+                                                    <li><a href="devops-consulting.html">Devops Consulting</a></li>
+    <li><a href="kubernetes-orchestration-and-containerization.html">Kubernetes Orchestration & Containerization</a></li>
+                                                    <li><a href="infrastructure-code.html">Infrastructure as a Code</a></li>
+                                                    <li class="active"><a href="aws-cloud.html">AWS Cloud</a></li>
+                            </ul>
+                        </aside>
+                     </div>
+                </div><!-- row end -->
+            </div>
+        </div>
+        <!-- sidebar end -->
+    </div><!--site-main end-->
 
         <!--footer start-->
          <footer class="footer widget-footer clearfix">
@@ -350,7 +287,7 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 order-md-3">
                             <div class="text-sm-right">
-                                <a class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-icon-btn-left ttm-btn-color-white" href="mailto:Info@example.com" title="">sales@takttimecloud.com <i class="fa fa-envelope-o"></i></a>
+                                <a class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-icon-btn-left ttm-btn-color-white" href="mailto:Info@example.com" title=""><span style=" text-transform: lowercase;">sales@takttimecloud.com </span><i class="fa fa-envelope-o"></i></a>
                             </div>
                         </div>
                     </div>
@@ -362,8 +299,8 @@
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                             <div class="widget widget_text  clearfix">
                                 <h3 class="widget-title">About Our Company</h3>
-                                <div class="textwidget widget-text">
-                                    We are the best world Information Technology Company. Providing the highest quality in hardware &amp; Network solutions. About more than 20 years of experience and 1000 of innovative achievements.
+                                <div class="textwidget widget-text" align="justify">
+                                  TaktTimeCloud is the only place to get started with cloud solutions. Convenient mobility, comprehensive data security, and improved collaboration are some of the leading-edge benefits that our cloud consultancy services offer to your business. 
                                 </div>
                                 <div class="quicklink-box">
                                     <!--  featured-icon-box --> 

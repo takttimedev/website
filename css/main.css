@@ -1697,6 +1697,130 @@ div.ttm-page-title-row > .ttm-bg-layer { background-color: rgba(24,35,51,0.85); 
     padding-bottom: 10px;
     z-index: 11;
 }
+.ttm-page-title-row1 { 
+    position: relative;
+    background-image: url(../images/ttm-pagetitle-bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+div.ttm-page-title-row1 > .ttm-bg-layer { background-color: rgba(24,35,51,0.85); }
+.ttm-page-title-row1 { 
+    display: block;
+    padding-top: 155px;
+    padding-bottom: 10px;
+    z-index: 11;
+}
+
+.ttm-page-title-row2 { 
+    position: relative;
+    background-image: url(../images/ttm-pagetitle-bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+div.ttm-page-title-row2 > .ttm-bg-layer { background-color: rgba(24,35,51,0.85); }
+.ttm-page-title-row2 { 
+    display: block;
+    padding-top: 155px;
+    padding-bottom: 10px;
+    z-index: 11;
+}
+.ttm-page-title-row3 { 
+    position: relative;
+    background-image: url(../images/ttm-pagetitle-bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+div.ttm-page-title-row3 > .ttm-bg-layer { background-color: rgba(24,35,51,0.85); }
+.ttm-page-title-row3 { 
+    display: block;
+    padding-top: 155px;
+    padding-bottom: 10px;
+    z-index: 11;
+}
+
+div.ttm-page-title-row4 > .ttm-bg-layer { background-color: rgba(24,35,51,0.85); }
+.ttm-page-title-row4 { 
+    display: block;
+    padding-top: 155px;
+    padding-bottom: 10px;
+    z-index: 11;
+}
+.ttm-page-title-row4 { 
+    position: relative;
+    background-image: url(../images/ttm-pagetitle-bg4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.ttm-page-title-row5 > .ttm-bg-layer { background-color: rgba(24,35,51,0.85); }
+.ttm-page-title-row5 { 
+    display: block;
+    padding-top: 155px;
+    padding-bottom: 10px;
+    z-index: 11;
+}
+.ttm-page-title-row5 { 
+    position: relative;
+    background-image: url(../images/ttm-pagetitle-bg5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div.ttm-page-title-row6 > .ttm-bg-layer { background-color: rgba(24,35,51,0.85); }
+.ttm-page-title-row6 { 
+    display: block;
+    padding-top: 155px;
+    padding-bottom: 10px;
+    z-index: 11;
+}
+.ttm-page-title-row6 { 
+    position: relative;
+    background-image: url(../images/ttm-pagetitle-bg6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div.ttm-page-title-row7 > .ttm-bg-layer { background-color: rgba(24,35,51,0.85); }
+.ttm-page-title-row7 { 
+    display: block;
+    padding-top: 155px;
+    padding-bottom: 10px;
+    z-index: 11;
+}
+.ttm-page-title-row7 { 
+    position: relative;
+    background-image: url(../images/ttm-pagetitle-bg7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div.ttm-page-title-row8 > .ttm-bg-layer { background-color: rgba(24,35,51,0.85); }
+.ttm-page-title-row8 { 
+    display: block;
+    padding-top: 155px;
+    padding-bottom: 10px;
+    z-index: 11;
+}
+.ttm-page-title-row8 { 
+    position: relative;
+    background-image: url(../images/ttm-pagetitle-bg8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 .title-box .page-title-heading h1 {
     text-transform: capitalize;
     font-size: 40px;
@@ -1712,6 +1836,14 @@ div.ttm-page-title-row > .ttm-bg-layer { background-color: rgba(24,35,51,0.85); 
     font-size: 16px;
     line-height: 25px;
 }
+
+
+
+
+
+ 
+
+
 
 /* ===============================================
     Inner-Pages
