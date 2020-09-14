@@ -1,11 +1,18 @@
-<!DOCTYPE html>
+
+
+
+
+
+
+
+  <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="keywords" content="" />
  
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>TaktTimeCloud Services</title>
+<title>Takt Time Services</title>
 
 <!-- favicon icon -->
 <link rel="shortcut icon" href="images/favicon.png" />
@@ -27,17 +34,7 @@
 
 <!-- flaticon -->
 <link rel="stylesheet" type="text/css" href="css/flaticon.css"/>
-<!-- prettyphoto -->
-<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 
-<!-- shortcodes -->
-<link rel="stylesheet" type="text/css" href="css/shortcodes.css"/>
-
-<!-- main -->
-<link rel="stylesheet" type="text/css" href="css/main.css"/>
-
-<!-- responsive -->
-<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
 
 <!-- REVOLUTION LAYERS STYLES -->
 
@@ -58,8 +55,7 @@
  
 
 <!--For Plugins css-->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	 
 	<link rel="stylesheet" href="assets/css/animate.css">
 	<link rel="stylesheet" href="assets/css/sina-nav.css">
 
@@ -114,19 +110,25 @@
             <!-- ttm-header-wrap -->
             
             
-            <div class="ttm-header-wrap">
+          <div class="ttm-header-wrap">
                 <!-- ttm-stickable-header-w -->
                 <div id="ttm-stickable-header-w" class="ttm-stickable-header-w clearfix">
                     <div id="site-header-menu" class="site-header-menu">
-                        <div class="">
-                            <div class="">
+                        <div class="site-header-menu-inner ttm-stickable-header">
+                            <div class="container">
                                 <!-- site-branding -->
-                              
+                               <div class="site-branding"  style="margin-top:10px;">
+                                    <a class="sina-brand" href="index.html">
+				 <img src="images/logo.png"  title="TaktTimeCloud Services"></a>
+                                </div><!-- site-branding end -->
                                 <!--site-navigation -->
                                 <div id="site-navigation" class="site-navigation">
                                     <div class="ttm-rt-contact">
                                         <!-- header-icons -->
-                                         <!-- header-icons end -->
+                                        <div class="ttm-header-icons ">
+                                             
+                                             
+                                        </div><!-- header-icons end -->
                                     </div>
                                     <div class="ttm-menu-toggle">
                                         <input type="checkbox" id="menu-toggle-form" />
@@ -136,95 +138,27 @@
                                             <span class="toggle-block toggle-blocks-3"></span>
                                         </label>
                                     </div>
-                                     <div class="nav-container">
-	<nav class="sina-nav mobile-sidebar navbar-fixed" data-top="60">
-		<div class="container">
-
-			 <!-- .search-box -->
-
-			 
-
-			<div class="sina-nav-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-					<i class="fa fa-bars"></i>
-				</button>
-				<a class="sina-brand" href="#">
-					<h2>
-						TaktTimeCloud 
-					</h2>
-				</a>
-			</div><!-- .sina-nav-header -->
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="navbar-menu">
-				<ul class="sina-menu sina-menu-center" data-in="fadeInLeft" data-out="fadeInOut">
-					<li><a href="index.html">HOME</a></li>
-					<li><a href="aboutus.html">ABOUT US</a></li>
-					 
-					 <li class="dropdown menu-item-has-mega-menu">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">SERVICES</a>
-						<div class="mega-menu dropdown-menu">
-							<ul class="mega-menu-row" role="menu">
-								<li class="mega-menu-col col-md-2 ">
-                                 <h4 class="mega-menu-col-title box" align="center"><a href="cloud-consulting.html">
-                                 <i class="fa fa-cloud" aria-hidden="true" style="font-size:50px; color:#2d4a8a;"></i>
-                                 <br>Cloud Consulting </a> </h4>
-									 
-								</li>
-                                
-								<li class="mega-menu-col col-md-2" >
-									<h4 class="mega-menu-col-title box" align="center"><a href="cloud-migration.html">
-                                    
-                                    <i class="fa fa-cloud-download" aria-hidden="true" style="font-size:50px; color:#2d4a8a;"></i>
-                                 <br>Cloud Migration </a>
-                                    
-                                     </h4>
-									 
-								</li>
-								<li class="mega-menu-col col-md-2 ">
-								<h4 class="mega-menu-col-title box" align="center"><a href="devops-consulting.html">
-                                    
-                                    <i class="fa fa-cog" aria-hidden="true" style="font-size:50px; color:#2d4a8a;"></i>
-                                 <br>Devops Consulting </a>
-                                    
-                                     </h4>
-									 
-								</li>
-                                
-                                <li class="mega-menu-col col-md-2">
-					<h4 class="mega-menu-col-title boxs" align="center"><a href="kubernetes-orchestration-and-containerization.html">
-                                    
-                                    <i class="fa fa-external-link-square" aria-hidden="true" style="font-size:50px; color:#2d4a8a;"></i>
-                                 <br>Kubernetes Orchestration & Containerization  </a>
-                                    
-                                     </h4>
-								</li>
-                                <li class="mega-menu-col col-md-2 box">
-									  <h4 class="mega-menu-col-title" align="center"><a href="infrastructure-code.html">
-                                    
-                                    <i class="fa fa-check-circle" aria-hidden="true" style="font-size:50px;color:#2d4a8a; "></i>
-                                 <br>Infrastructure as a Code  </a>
-                                    
-                                     </h4>
-								</li>
-                                 <li class="mega-menu-col col-md-2 ">
-									 <h4 class="mega-menu-col-title box" align="center"><a href="aws-cloud.html">
-                                    
-                                    <i class="fa fa-cloud-upload" aria-hidden="true" style="font-size:50px; color:#2d4a8a;"></i>
-                                 <br>AWS Cloud  </a>
-                                    
-                                     </h4>
-								</li>
-							</ul><!-- end row -->
-						</div>
-					</li>
-					<li><a href="team.html">TEAM</a></li>
-					<li><a href="contact.html">CONTACT US</a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- .container -->
-	</nav>
-</div>
+                                    <nav id="menu" class="menu">
+                                        <ul class="dropdown">
+                                        <li class="active"><a href="index.html">Home </a></li>
+				                       	<li><a href="aboutus.html">About Us</a></li>
+                                           
+                                             <li><a href="#">Services</a>
+                                                <ul>
+                                                    <li><a href="cloud-consulting.html">Cloud Consulting</a></li>
+                                                    <li><a href="cloud-migration.html">Cloud Migration</a></li>
+                                                    <li><a href="devops-consulting.html">Devops Consulting</a></li>
+    <li><a href="kubernetes-orchestration-and-containerization.html">Kubernetes Orchestration & Containerization</a></li>
+                                                    <li><a href="infrastructure-code.html">Infrastructure as a Code</a></li>
+                                                    <li><a href="aws-cloud.html">AWS Cloud</a></li>
+                                                </ul>
+                                            </li>
+                                         
+                                         <li><a href="team.html">Team</a></li>
+					<li><a href="contact.html"> Conatct us</a></li>
+                                            
+                                        </ul>
+                                    </nav>
                                 </div><!-- site-navigation end-->
                             </div>
                         </div>
@@ -241,14 +175,14 @@
                     <div class="col-md-12"> 
                         <div class="title-box text-center">
                             <div class="page-title-heading">
-                                <h1 class="title" style="color:#FFF;">Cloud Consulting</h1>
+                                <h1 class="title" style="color:#FFF;">Thank you</h1>
                             </div><!-- /.page-title-captions -->
                             <div class="breadcrumb-wrapper">
                                 <span>
                                     <a title="Homepage" href="index.html" style="color:#FFF;"><i class="ti ti-home"></i>&nbsp;&nbsp;Home</a>
                                 </span>
                                 <span class="ttm-bread-sep">&nbsp; : : &nbsp;</span>
-                                <span style="color:#FFF;">Cloud Consulting</span>
+                                <span style="color:#FFF;">Thank you</span>
                             </div>  
                         </div>
                     </div><!-- /.col-md-12 -->  
@@ -258,121 +192,54 @@
 
         <!--site-main start-->
         <div class="site-main">
-        <!-- sidebar -->
-        <div class="sidebar ttm-sidebar ttm-bgcolor-white clearfix">
-            <div class="container">
-                <!-- row -->
-                <div class="row">
-                    <div class="col-lg-9 content-area order-lg-2">
-                        <!-- ttm-service-single-content-are -->
-                        <!-- ttm-service-single-content-are -->
-                        <div class="ttm-service-single-content-area">
+
+            <!-- aboutus-section -->
+             <section class="ttm-row aboutus-section clearfix">
+                <div class="container">
+                    <div class="row"><!-- row -->
+                        <div class="col-lg-12">
                             <!-- section title -->
-                            <div class="section-title with-desc text-left clearfix">
+                            <div class="section-title with-desc clearfix">
                                 <div class="title-header">
-                                    <h5>We Build everything</h5>
-                                    <h2 class="title">Advisory Services</h2>
+                                   <h2>Thank You! for your message will get back to you as soon as possible <br> <br>
+                               </h2>
+<br>
+<h2></h2>
+ 
+
+
                                 </div>
                             </div><!-- section title end -->
-                            <div class="ttm_single_image-wrapper mb-35">
-                                <img class="img-fluid" src="images/single-img-twelve.jpg" alt="single-img-twelve">
-                            </div>
-                            <div class="ttm-service-description">
-                                <h3>App Installation & Cloud Services</h3>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,<b>eaque ipsa quae ab illo inventore</b>veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
-                                <div class="ttm_single_image-wrapper mb-35">
-                                    <img class="img-fluid" src="images/single-img-fourteen.jpg" alt="single-img-fourteen">
-                                </div>
-                                <h3>Digital Data Transformation</h3>
-                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop.</p>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                <!-- separator -->
-                                <div class="separator">
-                                    <div class="sep-line mt-35 mb-35 res-991-mtb-20"></div>
-                                </div>
-                                <!-- separator -->
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <h3>Digital Planning</h3>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam,<b>eaque ipsa quae ab illo inventore</b>veritatis etqo quasi architecto beatae vitae dicta sunt explicabo &amp; Nemo enimjq Letraset sheets containing Lorem Ipsum.</p>
-                                        <p>Omnis iste natus error sit voluptatem accusantium doloremque laudantium, but the majority suffered. sheets lorem ipsum.</p>
-                                        <a href="#" class="ttm-btn ttm-btn-size-md ttm-btn-bgcolor-skincolor">View more</a>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="ttm_single_image-wrapper res-767-mt-20">
-                                            <img class="img-fluid" src="images/single-img-fifteen.jpg" alt="single-img-fifteen">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- ttm-service-single-content-are end -->
-                    </div>
-                    <div class="col-lg-3 widget-area">
-                        <aside class="widget widget-nav-menu">
-                            <ul class="widget-menu">
-                                <li><a href="it-consultancy.html">Cloud Consulting</a></li>
-                                <li class="active"><a href="digital-services.html">Cloud Migration</a></li>
-                                <li><a href="advisory-services.html">DevOps Consulting</a></li>
-                                <li><a href="data-structuring.html">Kubernetes</a></li>
-                                <li><a href="experience-design.html">Infrastructure As A Code</a></li>
-                                <li><a href="content-engineering.html">AWS Cloud</a></li>
-                            </ul>
-                        </aside>
-                        <aside class="widget widget-text">
-                            <h3 class="widget-title">About Us</h3>
-                            <div class="ttm-author-widget">
-                                <div class="author-widget_img">
-                                    <img class="author-img img-fluid" src="images/author-img.jpg" alt="author image">
-                                </div>
-                                <h4 class="author-name">Altech-author</h4>
-                                <p class="author-widget_text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece orem Ipsum is not simply random text. It has roots in a piece of loream classical.</p>
-                            </div>
-                        </aside>
-                        <aside class="widget widget-download">
-                            <h3 class="widget-title">Brouchers</h3>
-                            <ul class="download">
-                                <li>
-                                    <i class="fa fa-file-pdf-o"></i>
-                                    <a href="#" title="Download">Download.pdf</a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-file-word-o"></i>
-                                    <a href="#" title="Download">Our ISO Certificate</a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-files-o"></i>
-                                    <a href="#" title="Download">Download.txt</a>
-                                </li>
-                            </ul>
-                        </aside>
-                        <aside class="widget widget_media_image">
-                            <div class="banner-img-box ttm-textcolor-white text-left">
-                                <div class="featured-content featured-content-banner">
-                                    <i class="flaticon flaticon-call"></i>
-                                    <div class="featured-title ttm-box-title">
-                                        <h5>How Can We Help?</h5>
-                                    </div>
-                                    <div class="featured-desc">
-                                        <p>If you need any help, please<br> feel free to contact us.</p>
-                                    </div>
-                                    <ul>
-                                        <li><i class="fa fa-phone"></i>+1234567890</li>
-                                        <li><i class="fa fa-envelope-o"></i><a href="mailto:info@example.com">info@example.com</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </aside>
-                    </div>
-                </div><!-- row end -->
-            </div>
-        </div>
-        <!-- sidebar end -->
-    </div><!--site-main end-->
+                            <!-- row -->
+                             
+                            < 
+                    <!-- row end -->
+                    <!-- row -->
+                    <div class="row">
+                        
+                    </div><!-- row end-->
+                </div>
+            </section>
+            <!-- aboutus-section end -->
+            
+            <!-- about-us-section -->
+             
+            <!-- about-us-section -->
+
+            <!-- fid-section -->
+             
+             
+
+         
+
+            <!-- blog-section end -->
+             
+            <!-- process-section end -->
+
+        </div><!--site-main end-->
 
         <!--footer start-->
-          <!--footer start-->
+           <!--footer start-->
         <footer class="footer widget-footer clearfix" id="contact">
             <div class="first-footer ttm-bgcolor-skincolor ttm-bg ttm-bgimage-yes bg-img1">
                 <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
@@ -483,14 +350,13 @@
                             </div>
                         </div>
                         
-                         
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                             <div class="widget flicker_widget clearfix">
                                <h3 class="widget-title">Drop Us A Line</h3>
-                               <div class="textwidget widget-text">
+                               <div class="textwidget widget-text"  style="color:#FFF">
                                
                                
-                                                          
+                                                            
                                <form id="ttm-quote-form" class="row ttm-quote-form clearfix" method="post" action="mail.php">
                                     <div class="col-sm-6 col-md-6">
                                         <div class="form-group">
@@ -526,7 +392,6 @@
                                     </div>
                                 </form>
 
-                                
                                 
                                      
                                   
@@ -573,7 +438,7 @@
 
         <!-- Javascript -->
 
-        <script src="js/jquery.min.js"></script>
+         <script src="js/jquery.min.js"></script>
         <script src="js/tether.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.easing.js"></script>    
@@ -585,8 +450,56 @@
         <script src="js/lazysizes.min.js"></script>
         <script src="js/main.js"></script>
 
+        <!-- Revolution Slider -->
+        <script src="revolution/js/revolution.tools.min.js"></script>
+        <script src="revolution/js/rs6.min.js"></script>
+        <script src="revolution/js/slider.js"></script>
+
         <!-- Javascript end-->
 
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<script src="assets/js/sina-nav.js"></script>
+
+	<!-- For All Plug-in Activation & Others -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			// WOW animation initialize
+			new WOW().init();
+		});
+	</script>
+
 </body>
+
  
 </html>
+
+
+
+
+
+<script>
+         setTimeout(function(){
+            window.location.href ='https://takttimedev.com/';
+         }, 5000);
+      </script>
+      
+      
+      
+      
+      
+       <?php
+$name = $_POST['name'];
+$phone = $_POST['phone'];
+$address = $_POST['address'];
+$subject = $_POST['subject'];
+$message = $_POST['Message'];
+
+ 
+$formcontent=" From: $name \n Phone: $phone \n Address : $address \n Subject : $subject \n Message: $message";
+
+$recipient ="info@englishbee.co.in";
+$subject = "Website Response";
+$mailheader = "From: $email \r\n"; 
+mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+  
